@@ -1,5 +1,5 @@
 body {
-  background-color: lightblue;
+  background-color: #ff9999;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,6 +40,14 @@ h1 {
   background-color: #4CAF50;
   color: white;
 }
+
+
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+}
+
 
 body, html {
   height: 100%;
