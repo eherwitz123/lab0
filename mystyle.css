@@ -72,3 +72,23 @@ ol li {
 body, html {
   height: 100%;
 }
+
+
+
+body {
+  display: grid;
+  grid-template-rows: 10vw 30vw 10vw;
+  grid-gap: 1em;
+}
+
+header, footer {
+  grid-column: 1 / 4;
+}
+
+footer {
+  background: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25vh;
+}
