@@ -77,12 +77,12 @@ body, html {
 
 body {
   display: grid;
-  grid-template-rows: 10vw 30vw 10vw;
+  grid-template-rows: 5vw 40vw 5vw;
   grid-gap: 1em;
 }
 
 header, footer {
-  grid-column: 1 / 4;
+  grid-column: 1 / 8;
 }
 
 footer {
