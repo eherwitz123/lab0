@@ -10,12 +10,15 @@ body {
 h1 {
   color: navy;
   text-align: center;
-  margin-left: 10px;
 }
 
 h2 {
   color: gray;
-  margin-left: 10px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }
 
 /* Add a black background color to the top navigation */
