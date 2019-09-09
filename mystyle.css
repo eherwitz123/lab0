@@ -75,7 +75,7 @@ body, html {
 
 
 
-body {
+.grid {
   display: grid;
   grid-template-rows: 5vw 40vw 5vw;
   grid-gap: 1em;
@@ -84,7 +84,14 @@ body {
 header, footer {
   grid-column: 1 / 8;
 }
+body {
+  margin: 0 auto;
+  max-width: 56em;
+  padding: 1em 0;
+}
 
+header,
+article,
 footer {
   background: #eaeaea;
   display: flex;
