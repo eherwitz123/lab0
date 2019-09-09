@@ -55,11 +55,10 @@ ol li {
   display: grid;
   grid-template-areas:
     'topnav topnav topnav topnav'
-    'main main main aside'
+    'main main main main'
     'footer footer footer';
 }
-.main,
-.aside {
+.main {
   padding: 10px
 }
 
@@ -67,9 +66,6 @@ ol li {
   grid-area: main;
 }
 
-.aside {
-  grid-area: aside;
-}
 
 .footer {
   grid-area: footer;
