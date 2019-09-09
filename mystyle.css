@@ -77,3 +77,16 @@ ol li {
   padding: 10px;
   text-align: center;
 }
+
+table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+}
+
+table{
+  border-spacing: 5px;
+}
