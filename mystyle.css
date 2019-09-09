@@ -77,13 +77,24 @@ body, html {
 
 .grid {
   display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
   grid-template-rows: 5vw 40vw 5vw;
   grid-gap: 1em;
 }
 
-header, footer {
-  grid-column: 1 / 8;
+.photo1 {
+  grid-column: 10/11;
 }
+
+.photo2 {
+  grid-column: 12/13;
+}
+
+.photo3 {
+  grid-column: 14/15;
+}
+
+
 body {
   margin: 0 auto;
   max-width: 56em;
@@ -92,10 +103,4 @@ body {
 
 header,
 article,
-footer {
-  background: #eaeaea;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 25vh;
-}
+footer 
