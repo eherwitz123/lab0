@@ -53,6 +53,7 @@ ol li {
 
 .grid_container {
   display: grid;
+  grid-row-gap: 50px;
   grid-template-areas:
     'topnav topnav topnav topnav'
     'main main main main'
