@@ -47,6 +47,8 @@ h2 {
 
 ol li {
   background: #ffe5e5;
+  padding: 5px;
+  margin-right: 5px;
 }
 
 .grid_container {
