@@ -11,6 +11,7 @@ img {
   max-height:420px;
   width: auto;
   height: auto;
+  width: 100%;
 }
 
 h1 {
@@ -87,6 +88,14 @@ ol li {
   margin-top: 10px;
   bottom: 0;
   left: 0;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 table, th, td
