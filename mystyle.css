@@ -83,7 +83,7 @@ ol li {
   left: 0;
 }
 
-table,
+table, th, td
 {
   border: 1px solid gray;
   border-spacing: 5px;
