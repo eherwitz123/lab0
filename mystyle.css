@@ -87,9 +87,9 @@ table, th, td
 {
   border: 1px solid gray;
   border-collapse: collapse;
-  border-spacing: 5px;
 }
 
 th, td {
   padding: 10px;
+  border-spacing: 5px;
 }
